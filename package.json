@@ -1,0 +1,22 @@
+{
+  "name": "reports-api",
+  "version": "1.0.0",
+  "description": "API server for reports application with Keycloak authentication",
+  "main": "api-example.js",
+  "scripts": {
+    "start": "node api-example.js",
+    "dev": "nodemon api-example.js"
+  },
+  "keywords": ["express", "keycloak", "jwt", "reports", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "jwks-rsa": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
