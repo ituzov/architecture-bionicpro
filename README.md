@@ -36,6 +36,8 @@
 
 ```bash
 # Запуск всех сервисов
+docker-compose build
+
 docker-compose up -d
 
 # Проверка работы
